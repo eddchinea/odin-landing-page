@@ -23,6 +23,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*****************************************/
+/* HEADER SECTION */
+/*****************************************/
 .header{
     background-color: var(--dark-color);
     display: flex;
@@ -89,3 +92,8 @@ img{
     width: 600px;
     height: 200px;
 }
+
+
+/*****************************************/
+/* CONTENT SECTION */
+/*****************************************/
