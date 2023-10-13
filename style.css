@@ -192,3 +192,14 @@ img{
 }
 
 
+/*****************************************/
+/* Footer SECTION */
+/*****************************************/
+
+.footer{
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
