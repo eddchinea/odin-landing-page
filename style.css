@@ -97,3 +97,98 @@ img{
 /*****************************************/
 /* CONTENT SECTION */
 /*****************************************/
+.cards-section{
+    text-align: center;
+    margin: 40px 0 80px 0;
+}
+
+.cards-inf{
+    font-size: 36px;
+    color: var(--dark-color);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 150px;
+    margin: 24px;
+    margin-top: 40px;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.card-text{
+    color: rgb(118, 121, 139);
+}
+
+
+/* QUOTE SECTION */
+.quote-section{
+    background-color: var(--lite-color);
+    padding: 80px 0;
+}
+
+.quote-container{
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--dark-color);
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-weight: 900;
+    color: var(--dark-color);
+}
+
+
+/* CTA SECTION */
+.cta-section{
+    padding: 80px 0;
+}
+
+.cta-container{
+    margin: 0 auto;
+    background-color: var(--blue-color);
+    width: 50%;
+    padding: 40px 100px;
+    border-radius: 8px;
+    display: flex;
+    color: #fff;
+}
+
+.cta-text{
+    flex: 1;
+}
+
+.cta-text p{
+    color: var(--lite-color);
+}
+
+.cta-button{
+    margin: auto;
+    background-color: var(--blue-color);
+    color: #fff;
+    padding: 8px 32px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
